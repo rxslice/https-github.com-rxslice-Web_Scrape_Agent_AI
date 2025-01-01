@@ -1,0 +1,36 @@
+{
+  "name": "web-scrape-agent-ai",
+  "version": "1.0.0",
+  "description": "A web scraping agent powered by AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxslice/Web_Scrape_Agent_AI.git"
+  },
+  "keywords": [
+    "web",
+    "scraping",
+    "ai",
+    "agent"
+  ],
+  "author": "rxslice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rxslice/Web_Scrape_Agent_AI/issues"
+  },
+  "homepage": "https://github.com/rxslice/Web_Scrape_Agent_AI#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  }
+}
